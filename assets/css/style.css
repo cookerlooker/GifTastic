@@ -1,1 +1,84 @@
+html, body {
+	margin-top: 75px;
+  margin-bottom: 75px;
+  text-align: center;
+  font-family: 'Poor Story', cursive;
+  background: url();
+	text-transform: uppercase;
+}
+
+/*.container {
+	  background: url(./assets/images/comic.png);
+    z-index:-1;
+
+}
+/*#background {
+    position:absolute;
+    left:0;
+    top:0;
+    background: url(./assets/images/comic.png);
+    z-index:-1;
+  }*/
+   h1 {
+    font-family: 'Poor Story', cursive;
+	  font-size: 55px;
+	  color: blueviolet;
+}
+form {
+	color: black;
+}
+
+#selectButtons {
+	display: inline;
+}
+.gifs {
+	display: inline;
+}
+#gifsView {
+	display: inline;
+	margin-bottom: 40px;
+}
+.gif {
+	cursor: crosshair;
+}
+
+#cartoon-form {
+	display: inline;
+}
+button {
+	background: #fff;
+	margin: 5px;
+	font-family: 'Open Sans', sans-serif;
+	color: black;
+}
+textarea:focus {
+  border-bottom: 2px solid #fff;
+  -webkit-box-shadow: 0 2px 0 0 #fff;
+  -moz-box-shadow: 0 2px 0 0 #fff;
+  box-shadow: 0 2px 0 0 #fff;
+}
+
+/*border */
+#top,
+#bottom,
+#left,
+#right {
+	background: #fff;
+	position: fixed;
+}
+#left,
+#right {
+	top: 0; bottom: 0;
+	width: 15px;
+}
+	#left { left: 0; }
+	#right { right: 0; }
+
+#top,
+#bottom {
+	left: 0; right: 0;
+	height: 15px;
+}
+	#top { top: 0; }
+	#bottom { bottom: 0; }
 
